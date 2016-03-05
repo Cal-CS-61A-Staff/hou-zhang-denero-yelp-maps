@@ -1,6 +1,6 @@
 {
-  "name": "Yelp Maps",
-  "endpoint": "none",
+  "name": "Project 2: Yelp Maps",
+  "endpoint": "cal/cs61a/sp16/proj2",
   "src": [
     "utils.py",
     "abstractions.py",

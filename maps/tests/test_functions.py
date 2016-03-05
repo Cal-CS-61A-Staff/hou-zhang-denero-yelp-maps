@@ -129,8 +129,3 @@ def deep_check_same_elements(clusters1, clusters2):
 
 def sample(lst, k):
     return lst[:k]
-
-def predict_multiple_ratings(user, restaurants, cluster, feature_fns):
-    predictions, r_squared = [3, 3.5, 4, 4.5, 5], 0.61
-    return [predictions[i % 5] for i in range(len(restaurants))], r_squared
-
